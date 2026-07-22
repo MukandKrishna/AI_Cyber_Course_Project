@@ -63,10 +63,7 @@ The enhanced features add scenario-relative information such as within-scenario 
 
 That design is important because raw counts alone can be misleading when scenarios differ in size and message volume.
 
-More detail is documented in:
-
-- [Results/features/README.md](Results/features/README.md)
-- [PASYDA_EDA_Report_Summary.md](PASYDA_EDA_Report_Summary.md)
+More detail is documented in [Results/features/README.md](Results/features/README.md).
 
 ## Evaluation Strategy
 
@@ -84,6 +81,8 @@ The evaluation reports several metrics, including:
 - ROC-AUC
 - PR-AUC
 
+The experiment map is summarised in [reports/experiment_reports/experiment_index.md](reports/experiment_reports/experiment_index.md).
+
 ## Main Results
 
 The baseline experiments show that simple volume-based heuristics are not enough, but message-length based heuristics are unusually strong.
@@ -98,6 +97,8 @@ The full enhanced feature set gives perfect grouped-evaluation results for Rando
 
 That pattern suggests the synthetic data contains a strong message-length signal, so the results should be presented as successful on this dataset rather than as proof of general real-world deployment performance.
 
+The baseline comparison is described in [reports/experiment_reports/baseline_experiments_summary.md](reports/experiment_reports/baseline_experiments_summary.md), and the model evaluation is described in [reports/experiment_reports/model_experiments_summary.md](reports/experiment_reports/model_experiments_summary.md).
+
 ## What The Project Demonstrates
 
 This repository is useful because it shows three different signals in one portfolio piece:
@@ -108,28 +109,11 @@ This repository is useful because it shows three different signals in one portfo
 
 In short, the project does not just say that a model worked. It explains why the task was built this way, how the data was structured, what the evaluation means, and where the limits are.
 
-## Repository Guide
+## Recommended Reading Order
 
-- `PASYDA/` - original synthetic data package and supporting material
-- `Results/` - final analysis outputs, feature tables, and evaluation summaries
-- `outputs/` - generated EDA artifacts used to build the final reports
-- `reports/` - experiment write-ups and summary documents
-- `src/` - feature engineering, evaluation, and reporting code
-- `tools/` - helper scripts used to generate documents and summary files
-- `PASYDA_EDA_Final.ipynb` - the final notebook used for the EDA workflow
-- `PASYDA_EDA_Report_Summary.md` - a readable summary of the notebook and outputs
-
-## Where To Start
-
-If you want the fastest path through the project, read these in order:
-
-1. [PASYDA_EDA_Report_Summary.md](PASYDA_EDA_Report_Summary.md)
-2. [Results/features/README.md](Results/features/README.md)
-3. [Results/metrics/README.md](Results/metrics/README.md)
-4. [reports/experiment_reports/experiment_index.md](reports/experiment_reports/experiment_index.md)
+1. [Results/features/README.md](Results/features/README.md)
+2. [Results/metrics/README.md](Results/metrics/README.md)
+3. [reports/experiment_reports/experiment_index.md](reports/experiment_reports/experiment_index.md)
+4. [reports/experiment_reports/baseline_experiments_summary.md](reports/experiment_reports/baseline_experiments_summary.md)
 5. [reports/experiment_reports/model_experiments_summary.md](reports/experiment_reports/model_experiments_summary.md)
-6. [reports/summary_report/AI%20for%20Cyber%20Security%20Group%20Project%20Report.pdf](reports/summary_report/AI%20for%20Cyber%20Security%20Group%20Project%20Report.pdf)
-
-## Notes
-
-This README is intentionally written as a project walkthrough. It is meant to help a reader understand the whole pipeline from raw scenario files to the final findings without needing to open every intermediate artifact.
+6. [reports/summary_report/model_ablation_comparison.png](reports/summary_report/model_ablation_comparison.png)
