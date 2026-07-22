@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.zip
+~$*
+outputs/
+PASYDA/Dataset/
+lectures/
+others_don't_touch/
+*.docx
+*.pptx
