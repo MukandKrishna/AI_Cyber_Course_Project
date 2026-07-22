@@ -11,10 +11,11 @@ COMP7029_Group_Project_Submission/
 experiment_word_files/
 src/reporting
 tools/
-CLAUDE_REVIEW_RESPONSE_AND_NEXT_ACTIONS.txt
-SKILL.md
-project\Updated_Grooming_Project_Plan.md
-steps.md
 build_pasyda_eda_notebook.py
+PASYDA_EDA_Report_Summary.md
+project\Updated_Grooming_Project_Plan.md
+CLAUDE_REVIEW_RESPONSE_AND_NEXT_ACTIONS.txt
+steps.md
+SKILL.md
 *.docx
 *.pptx
