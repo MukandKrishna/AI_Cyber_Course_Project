@@ -1,0 +1,4 @@
+model,full_experiment,no_length_experiment,full_top1,no_length_top1,top1_drop,full_mrr,no_length_mrr,mrr_drop,full_f1,no_length_f1,f1_drop,full_roc_auc,no_length_roc_auc,full_pr_auc,no_length_pr_auc
+Random Forest,random_forest_enhanced,random_forest_no_length,1.00,0.70,0.30,1.0000,0.7950,0.2050,1.00,0.70,0.30,1.00,0.96,1.00,0.8400
+SVM,svm_rbf_enhanced,svm_rbf_no_length,1.00,1.00,0.00,1.0000,1.0000,0.0000,1.00,1.00,0.00,1.00,1.00,1.00,1.0000
+MLP,mlp_small_enhanced,mlp_small_no_length,1.00,0.90,0.10,1.0000,0.9111,0.0889,1.00,0.90,0.10,1.00,0.93,1.00,0.9125

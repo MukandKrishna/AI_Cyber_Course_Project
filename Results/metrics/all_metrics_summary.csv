@@ -1,0 +1,16 @@
+experiment,top1_accuracy_mean,top1_accuracy_std,mean_reciprocal_rank_mean,mean_reciprocal_rank_std,mean_positive_rank_mean,mean_positive_rank_std,precision_at_top1_mean,precision_at_top1_std,recall_at_top1_mean,recall_at_top1_std,f1_at_top1_mean,f1_at_top1_std,roc_auc_mean,roc_auc_std,pr_auc_mean,pr_auc_std
+baseline_highest_evening_ratio,0.5,0.0,0.6302,0.1094,3.9,2.2192,0.5,0.0,0.5,0.0,0.5,0.0,0.805,0.1605,0.6287,0.1155
+baseline_highest_message_count,0.0,0.0,0.3139,0.1425,4.2,2.1679,0.0,0.0,0.0,0.0,0.0,0.0,0.68,0.228,0.263,0.1534
+baseline_highest_short_message_ratio,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+baseline_longest_duration,0.3,0.4472,0.5767,0.2962,2.7,1.9875,0.3,0.4472,0.3,0.4472,0.3,0.4472,0.74,0.1376,0.3846,0.1225
+baseline_lowest_mean_length,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+baseline_weighted_contextual_heuristic,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+mlp_small_base,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+mlp_small_enhanced,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+mlp_small_no_length,0.9,0.2236,0.9111,0.1988,1.8,1.7889,0.9,0.2236,0.9,0.2236,0.9,0.2236,0.93,0.1565,0.9125,0.1957
+random_forest_base,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+random_forest_enhanced,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+random_forest_no_length,0.7,0.2739,0.795,0.1956,1.8,0.9083,0.7,0.2739,0.7,0.2739,0.7,0.2739,0.96,0.0454,0.84,0.1588
+svm_rbf_base,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+svm_rbf_enhanced,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+svm_rbf_no_length,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0

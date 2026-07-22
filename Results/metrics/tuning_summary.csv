@@ -1,0 +1,4 @@
+model,top1_accuracy_mean,top1_accuracy_std,mean_reciprocal_rank_mean,mean_reciprocal_rank_std,f1_at_top1_mean,roc_auc_mean,pr_auc_mean
+mlp_small,1.0,0.0,1.0,0.0,1.0,1.0,1.0
+random_forest,1.0,0.0,1.0,0.0,1.0,1.0,1.0
+svm_rbf,1.0,0.0,1.0,0.0,1.0,1.0,1.0

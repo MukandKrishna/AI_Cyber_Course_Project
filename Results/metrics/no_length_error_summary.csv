@@ -1,0 +1,4 @@
+experiment,true_pairs,missed_top1,worst_true_rank,mean_true_rank
+mlp_small_no_length,10,1,9.0,1.8
+random_forest_no_length,10,3,5.0,1.8
+svm_rbf_no_length,10,0,1.0,1.0

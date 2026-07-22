@@ -1,0 +1,10 @@
+experiment,top1_accuracy_mean,top1_accuracy_std,mean_reciprocal_rank_mean,mean_reciprocal_rank_std,mean_positive_rank_mean,mean_positive_rank_std,precision_at_top1_mean,precision_at_top1_std,recall_at_top1_mean,recall_at_top1_std,f1_at_top1_mean,f1_at_top1_std,roc_auc_mean,roc_auc_std,pr_auc_mean,pr_auc_std
+mlp_small_base,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+mlp_small_enhanced,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+mlp_small_no_length,0.9,0.2236,0.9111,0.1988,1.8,1.7889,0.9,0.2236,0.9,0.2236,0.9,0.2236,0.93,0.1565,0.9125,0.1957
+random_forest_base,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+random_forest_enhanced,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+random_forest_no_length,0.7,0.2739,0.795,0.1956,1.8,0.9083,0.7,0.2739,0.7,0.2739,0.7,0.2739,0.96,0.0454,0.84,0.1588
+svm_rbf_base,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+svm_rbf_enhanced,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+svm_rbf_no_length,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
