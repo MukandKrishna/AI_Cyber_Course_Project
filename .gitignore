@@ -4,8 +4,9 @@ __pycache__/
 *.zip
 ~$*
 outputs/
-PASYDA/Dataset/
+PASYDA/
 lectures/
 others_don't_touch/
+COMP7029_Group_Project_Submission/
 *.docx
 *.pptx
